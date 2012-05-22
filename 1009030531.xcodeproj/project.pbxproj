@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06EF05BE156B5695002991F4 /* RuletModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EF05BB156B5695002991F4 /* RuletModel.m */; };
+		06EF05BF156B5695002991F4 /* RuletModel+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EF05BD156B5695002991F4 /* RuletModel+Helper.m */; };
 		E01FAC35156A49AB00630258 /* denpyo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E01FAC33156A49AB00630258 /* denpyo.jpg */; };
 		E01FAC36156A49AB00630258 /* leji.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E01FAC34156A49AB00630258 /* leji.jpg */; };
 		E01FAC3C156A4C6800630258 /* glass.png in Resources */ = {isa = PBXBuildFile; fileRef = E01FAC3B156A4C6800630258 /* glass.png */; };
@@ -54,6 +56,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06EF05BA156B5695002991F4 /* RuletModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuletModel.h; sourceTree = "<group>"; };
+		06EF05BB156B5695002991F4 /* RuletModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RuletModel.m; sourceTree = "<group>"; };
+		06EF05BC156B5695002991F4 /* RuletModel+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RuletModel+Helper.h"; sourceTree = "<group>"; };
+		06EF05BD156B5695002991F4 /* RuletModel+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RuletModel+Helper.m"; sourceTree = "<group>"; };
 		E01FAC33156A49AB00630258 /* denpyo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = denpyo.jpg; sourceTree = "<group>"; };
 		E01FAC34156A49AB00630258 /* leji.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = leji.jpg; sourceTree = "<group>"; };
 		E01FAC3B156A4C6800630258 /* glass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glass.png; sourceTree = "<group>"; };
@@ -140,6 +146,10 @@
 		E092E65713F43DC500406A23 = {
 			isa = PBXGroup;
 			children = (
+				06EF05BA156B5695002991F4 /* RuletModel.h */,
+				06EF05BB156B5695002991F4 /* RuletModel.m */,
+				06EF05BC156B5695002991F4 /* RuletModel+Helper.h */,
+				06EF05BD156B5695002991F4 /* RuletModel+Helper.m */,
 				E092E66C13F43DC600406A23 /* 1009030531 */,
 				E092E68C13F43DC600406A23 /* 1009030531Tests */,
 				E092E66513F43DC500406A23 /* Frameworks */,
@@ -368,6 +378,8 @@
 				E0463495148DCC5B00072AD3 /* DetailViewController1.m in Sources */,
 				E0B364B514B4B00F00E03A9D /* ResultViewController.m in Sources */,
 				E0B364C014B4B24F00E03A9D /* LixiTableViewController.m in Sources */,
+				06EF05BE156B5695002991F4 /* RuletModel.m in Sources */,
+				06EF05BF156B5695002991F4 /* RuletModel+Helper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,11 +9,41 @@
 #import "RootViewController.h"
 #import "ResultViewController.h"
 #import "LixiTableViewController.h"
+#import "RuletModel.h"
+#import "RuletModel+Helper.h"
 
 @implementation RootViewController
 
 - (void)viewDidLoad
 {
+    RuletModel *rm = [[RuletModel alloc] init];
+    [rm createDummyPrice:10034];
+    [rm createDummyPerson:3];
+    
+    NSLog(@"person num is %i",[[rm people] count]);
+    NSLog(@"price is %i",rm.price);
+    [rm setPerPriceToProperty:rm.people with:rm.price];
+
+    
+    
+    int index =0;
+    for (NSMutableDictionary *p in rm.people ){
+        
+        int t = [[p objectForKey:@"price"] intValue];
+         index += 1;
+        
+        NSLog(@"person_%i is %i",index,t);
+        NSLog(@"offset is %i",rm.offSet);
+
+        
+    }
+
+
+    
+
+    
+    
+    
     //UIBarbutton set title "back"
     UIBarButtonItem *backbtn=[[UIBarButtonItem alloc] init];
     backbtn.title=@"Back";
