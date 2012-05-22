@@ -12,31 +12,48 @@
 #import "RuletModel.h"
 #import "RuletModel+Helper.h"
 
+
+
 @implementation RootViewController
+@synthesize  rm = _rm;
+
+
+
+-(RuletModel *) rm
+{
+
+    
+    if (!_rm) {
+        _rm = [[RuletModel alloc] init];
+    }
+    return _rm;
+    
+}
+
 
 - (void)viewDidLoad
 {
-    RuletModel *rm = [[RuletModel alloc] init];
-    [rm createDummyPrice:10034];
-    [rm createDummyPerson:3];
-    
-    NSLog(@"person num is %i",[[rm people] count]);
-    NSLog(@"price is %i",rm.price);
-    [rm setPerPriceToProperty:rm.people with:rm.price];
+//    [rm createDummyPrice:10034];
+//    [rm createDummyPerson:3];
+//    
+//    NSLog(@"person num is %i",[[rm people] count]);
+//    NSLog(@"price is %i",rm.price);
+//    [rm setPerPriceToProperty:rm.people with:rm.price];
+//
+//    
+//    
+//    int index =0;
+//    for (NSMutableDictionary *p in rm.people ){
+//        
+//        int t = [[p objectForKey:@"price"] intValue];
+//         index += 1;
+//        
+//        NSLog(@"person_%i is %i",index,t);
+//        NSLog(@"offset is %i",rm.offSet);
+//
+//        
+//    }
 
-    
-    
-    int index =0;
-    for (NSMutableDictionary *p in rm.people ){
-        
-        int t = [[p objectForKey:@"price"] intValue];
-         index += 1;
-        
-        NSLog(@"person_%i is %i",index,t);
-        NSLog(@"offset is %i",rm.offSet);
-
-        
-    }
 
 
     
@@ -51,7 +68,22 @@
     [backbtn release];
 }
 
+- (IBAction)didFinishedEditingField:(id)sender {
+    int num = [peopleNumberField.text intValue];
+    NSLog(@"num is %i",num);
+    NSLog(@"%@",self.rm);
+
+    [self.rm createDummyPerson:num];
+    
+    NSLog(@"people number is %@",[self.rm people]);
+
+    
+    
+    
+}
+
 - (IBAction)Pay:(id)sender{
+    NSLog(@"you typed, %@", [peopleNumberField text]);
 	ResultViewController *abc = [[ResultViewController alloc] initWithNibName:@"ResultViewController" 
                                                  bundle:nil];
 	[self.navigationController pushViewController:abc animated:YES];

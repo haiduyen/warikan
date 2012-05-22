@@ -19,6 +19,8 @@
 @property (nonatomic) int offSet;
 @property (nonatomic) int randomMoney;
 @property (nonatomic) int unitOfMoney;
+@property (nonatomic) int peopleCount;
+
 
 
 @property (nonatomic) int perPrice;
