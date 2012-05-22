@@ -10,8 +10,8 @@
 
 @implementation _009030531AppDelegate
 
-
 @synthesize window=_window;
+//@synthesize tabBarController=_tabBarController;
 
 @synthesize navigationController=_navigationController;
 
@@ -20,6 +20,7 @@
     // Override point for customization after application launch.
     // Add the navigation controller's view to the window and display.
     self.window.rootViewController = self.navigationController;
+   // self.window.rootViewController = self.tabBarController;
     [self.window makeKeyAndVisible];
     return YES;
 }

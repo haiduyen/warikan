@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E01FAC35156A49AB00630258 /* denpyo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E01FAC33156A49AB00630258 /* denpyo.jpg */; };
+		E01FAC36156A49AB00630258 /* leji.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E01FAC34156A49AB00630258 /* leji.jpg */; };
+		E01FAC3C156A4C6800630258 /* glass.png in Resources */ = {isa = PBXBuildFile; fileRef = E01FAC3B156A4C6800630258 /* glass.png */; };
+		E0463495148DCC5B00072AD3 /* DetailViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = E0463493148DCC5700072AD3 /* DetailViewController1.m */; };
+		E0463496148DCC5B00072AD3 /* DetailViewController1.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0463494148DCC5900072AD3 /* DetailViewController1.xib */; };
 		E092E66713F43DC500406A23 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E092E66613F43DC500406A23 /* UIKit.framework */; };
 		E092E66913F43DC500406A23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E092E66813F43DC500406A23 /* Foundation.framework */; };
 		E092E66B13F43DC500406A23 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E092E66A13F43DC500406A23 /* CoreGraphics.framework */; };
@@ -22,6 +27,20 @@
 		E092E69113F43DC600406A23 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E092E68F13F43DC600406A23 /* InfoPlist.strings */; };
 		E092E69413F43DC600406A23 /* _009030531Tests.h in Resources */ = {isa = PBXBuildFile; fileRef = E092E69313F43DC600406A23 /* _009030531Tests.h */; };
 		E092E69613F43DC600406A23 /* _009030531Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E092E69513F43DC600406A23 /* _009030531Tests.m */; };
+		E092E6A213F43E1700406A23 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E092E6A113F43E1600406A23 /* AVFoundation.framework */; };
+		E092E6AC13F43F0100406A23 /* Data1.plist in Resources */ = {isa = PBXBuildFile; fileRef = E092E6AB13F43F0100406A23 /* Data1.plist */; };
+		E092E6AE13F43F0E00406A23 /* Data2.plist in Resources */ = {isa = PBXBuildFile; fileRef = E092E6AD13F43F0E00406A23 /* Data2.plist */; };
+		E092E6E013F4408A00406A23 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = E092E6DF13F4408900406A23 /* Item.m */; };
+		E0B364AF14B4A61200E03A9D /* dotien2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E0B3647A14B4A61200E03A9D /* dotien2.mp3 */; };
+		E0B364B014B4A61200E03A9D /* tienkeu2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E0B3647B14B4A61200E03A9D /* tienkeu2.mp3 */; };
+		E0B364B114B4A61200E03A9D /* tienkeu4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E0B3647C14B4A61200E03A9D /* tienkeu4.mp3 */; };
+		E0B364B514B4B00F00E03A9D /* ResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0B364B314B4B00F00E03A9D /* ResultViewController.m */; };
+		E0B364B614B4B00F00E03A9D /* ResultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0B364B414B4B00F00E03A9D /* ResultViewController.xib */; };
+		E0B364B814B4B02800E03A9D /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0B364B714B4B02800E03A9D /* Accelerate.framework */; };
+		E0B364BA14B4B02D00E03A9D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0B364B914B4B02D00E03A9D /* AudioToolbox.framework */; };
+		E0B364BC14B4B03400E03A9D /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0B364BB14B4B03400E03A9D /* MessageUI.framework */; };
+		E0B364C014B4B24F00E03A9D /* LixiTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0B364BE14B4B24E00E03A9D /* LixiTableViewController.m */; };
+		E0B364C114B4B24F00E03A9D /* LixiTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0B364BF14B4B24F00E03A9D /* LixiTableViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,26 +54,49 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E01FAC33156A49AB00630258 /* denpyo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = denpyo.jpg; sourceTree = "<group>"; };
+		E01FAC34156A49AB00630258 /* leji.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = leji.jpg; sourceTree = "<group>"; };
+		E01FAC3B156A4C6800630258 /* glass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glass.png; sourceTree = "<group>"; };
+		E0463492148DCC5500072AD3 /* DetailViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController1.h; sourceTree = "<group>"; };
+		E0463493148DCC5700072AD3 /* DetailViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController1.m; sourceTree = "<group>"; };
+		E0463494148DCC5900072AD3 /* DetailViewController1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController1.xib; sourceTree = "<group>"; };
 		E092E66213F43DC500406A23 /* 1009030531.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 1009030531.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E092E66613F43DC500406A23 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E092E66813F43DC500406A23 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E092E66A13F43DC500406A23 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		E092E66E13F43DC600406A23 /* 1009030531-Info.plist */ = {isa = PBXFileReference; path = "1009030531-Info.plist"; sourceTree = "<group>"; };
+		E092E66E13F43DC600406A23 /* 1009030531-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "1009030531-Info.plist"; sourceTree = "<group>"; };
 		E092E67013F43DC600406A23 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		E092E67213F43DC600406A23 /* 1009030531-Prefix.pch */ = {isa = PBXFileReference; path = "1009030531-Prefix.pch"; sourceTree = "<group>"; };
+		E092E67213F43DC600406A23 /* 1009030531-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1009030531-Prefix.pch"; sourceTree = "<group>"; };
 		E092E67313F43DC600406A23 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E092E67513F43DC600406A23 /* _009030531AppDelegate.h */ = {isa = PBXFileReference; path = _009030531AppDelegate.h; sourceTree = "<group>"; };
+		E092E67513F43DC600406A23 /* _009030531AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _009030531AppDelegate.h; sourceTree = "<group>"; };
 		E092E67613F43DC600406A23 /* _009030531AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _009030531AppDelegate.m; sourceTree = "<group>"; };
 		E092E67913F43DC600406A23 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		E092E67B13F43DC600406A23 /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		E092E67B13F43DC600406A23 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		E092E67C13F43DC600406A23 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		E092E67F13F43DC600406A23 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
 		E092E68613F43DC600406A23 /* 1009030531Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 1009030531Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E092E68E13F43DC600406A23 /* 1009030531Tests-Info.plist */ = {isa = PBXFileReference; path = "1009030531Tests-Info.plist"; sourceTree = "<group>"; };
+		E092E68E13F43DC600406A23 /* 1009030531Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "1009030531Tests-Info.plist"; sourceTree = "<group>"; };
 		E092E69013F43DC600406A23 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		E092E69213F43DC600406A23 /* 1009030531Tests-Prefix.pch */ = {isa = PBXFileReference; path = "1009030531Tests-Prefix.pch"; sourceTree = "<group>"; };
+		E092E69213F43DC600406A23 /* 1009030531Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1009030531Tests-Prefix.pch"; sourceTree = "<group>"; };
 		E092E69313F43DC600406A23 /* _009030531Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _009030531Tests.h; sourceTree = "<group>"; };
 		E092E69513F43DC600406A23 /* _009030531Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _009030531Tests.m; sourceTree = "<group>"; };
+		E092E6A113F43E1600406A23 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E092E6AB13F43F0100406A23 /* Data1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Data1.plist; sourceTree = "<group>"; };
+		E092E6AD13F43F0E00406A23 /* Data2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Data2.plist; sourceTree = "<group>"; };
+		E092E6DE13F4408900406A23 /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		E092E6DF13F4408900406A23 /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+		E0B3647A14B4A61200E03A9D /* dotien2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dotien2.mp3; sourceTree = "<group>"; };
+		E0B3647B14B4A61200E03A9D /* tienkeu2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tienkeu2.mp3; sourceTree = "<group>"; };
+		E0B3647C14B4A61200E03A9D /* tienkeu4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tienkeu4.mp3; sourceTree = "<group>"; };
+		E0B364B214B4B00F00E03A9D /* ResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultViewController.h; sourceTree = "<group>"; };
+		E0B364B314B4B00F00E03A9D /* ResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultViewController.m; sourceTree = "<group>"; };
+		E0B364B414B4B00F00E03A9D /* ResultViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResultViewController.xib; sourceTree = "<group>"; };
+		E0B364B714B4B02800E03A9D /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		E0B364B914B4B02D00E03A9D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		E0B364BB14B4B03400E03A9D /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		E0B364BD14B4B24E00E03A9D /* LixiTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LixiTableViewController.h; sourceTree = "<group>"; };
+		E0B364BE14B4B24E00E03A9D /* LixiTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LixiTableViewController.m; sourceTree = "<group>"; };
+		E0B364BF14B4B24F00E03A9D /* LixiTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LixiTableViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +104,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0B364BC14B4B03400E03A9D /* MessageUI.framework in Frameworks */,
+				E0B364BA14B4B02D00E03A9D /* AudioToolbox.framework in Frameworks */,
+				E0B364B814B4B02800E03A9D /* Accelerate.framework in Frameworks */,
+				E092E6A213F43E1700406A23 /* AVFoundation.framework in Frameworks */,
 				E092E66713F43DC500406A23 /* UIKit.framework in Frameworks */,
 				E092E66913F43DC500406A23 /* Foundation.framework in Frameworks */,
 				E092E66B13F43DC500406A23 /* CoreGraphics.framework in Frameworks */,
@@ -81,6 +127,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E01FAC32156A49AB00630258 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				E01FAC3B156A4C6800630258 /* glass.png */,
+				E01FAC33156A49AB00630258 /* denpyo.jpg */,
+				E01FAC34156A49AB00630258 /* leji.jpg */,
+			);
+			path = images;
+			sourceTree = SOURCE_ROOT;
+		};
 		E092E65713F43DC500406A23 = {
 			isa = PBXGroup;
 			children = (
@@ -103,7 +159,11 @@
 		E092E66513F43DC500406A23 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E0B364BB14B4B03400E03A9D /* MessageUI.framework */,
+				E0B364B914B4B02D00E03A9D /* AudioToolbox.framework */,
+				E0B364B714B4B02800E03A9D /* Accelerate.framework */,
 				E092E66613F43DC500406A23 /* UIKit.framework */,
+				E092E6A113F43E1600406A23 /* AVFoundation.framework */,
 				E092E66813F43DC500406A23 /* Foundation.framework */,
 				E092E66A13F43DC500406A23 /* CoreGraphics.framework */,
 			);
@@ -113,12 +173,23 @@
 		E092E66C13F43DC600406A23 /* 1009030531 */ = {
 			isa = PBXGroup;
 			children = (
+				E092E6DE13F4408900406A23 /* Item.h */,
+				E092E6DF13F4408900406A23 /* Item.m */,
 				E092E67513F43DC600406A23 /* _009030531AppDelegate.h */,
 				E092E67613F43DC600406A23 /* _009030531AppDelegate.m */,
 				E092E67813F43DC600406A23 /* MainWindow.xib */,
 				E092E67B13F43DC600406A23 /* RootViewController.h */,
 				E092E67C13F43DC600406A23 /* RootViewController.m */,
 				E092E67E13F43DC600406A23 /* RootViewController.xib */,
+				E0B364B214B4B00F00E03A9D /* ResultViewController.h */,
+				E0B364B314B4B00F00E03A9D /* ResultViewController.m */,
+				E0B364B414B4B00F00E03A9D /* ResultViewController.xib */,
+				E0B364BD14B4B24E00E03A9D /* LixiTableViewController.h */,
+				E0B364BE14B4B24E00E03A9D /* LixiTableViewController.m */,
+				E0B364BF14B4B24F00E03A9D /* LixiTableViewController.xib */,
+				E0463492148DCC5500072AD3 /* DetailViewController1.h */,
+				E0463493148DCC5700072AD3 /* DetailViewController1.m */,
+				E0463494148DCC5900072AD3 /* DetailViewController1.xib */,
 				E092E66D13F43DC600406A23 /* Supporting Files */,
 			);
 			path = 1009030531;
@@ -127,6 +198,10 @@
 		E092E66D13F43DC600406A23 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E01FAC32156A49AB00630258 /* images */,
+				E0B3647914B4A61200E03A9D /* Sound */,
+				E092E6AB13F43F0100406A23 /* Data1.plist */,
+				E092E6AD13F43F0E00406A23 /* Data2.plist */,
 				E092E66E13F43DC600406A23 /* 1009030531-Info.plist */,
 				E092E66F13F43DC600406A23 /* InfoPlist.strings */,
 				E092E67213F43DC600406A23 /* 1009030531-Prefix.pch */,
@@ -153,6 +228,17 @@
 				E092E69213F43DC600406A23 /* 1009030531Tests-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E0B3647914B4A61200E03A9D /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				E0B3647A14B4A61200E03A9D /* dotien2.mp3 */,
+				E0B3647B14B4A61200E03A9D /* tienkeu2.mp3 */,
+				E0B3647C14B4A61200E03A9D /* tienkeu4.mp3 */,
+			);
+			name = Sound;
+			path = ../Sound;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +286,7 @@
 		E092E65913F43DC500406A23 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0430;
 				ORGANIZATIONNAME = "tokushima university";
 			};
 			buildConfigurationList = E092E65C13F43DC500406A23 /* Build configuration list for PBXProject "1009030531" */;
@@ -228,6 +315,17 @@
 				E092E67113F43DC600406A23 /* InfoPlist.strings in Resources */,
 				E092E67A13F43DC600406A23 /* MainWindow.xib in Resources */,
 				E092E68013F43DC600406A23 /* RootViewController.xib in Resources */,
+				E092E6AC13F43F0100406A23 /* Data1.plist in Resources */,
+				E092E6AE13F43F0E00406A23 /* Data2.plist in Resources */,
+				E0463496148DCC5B00072AD3 /* DetailViewController1.xib in Resources */,
+				E0B364AF14B4A61200E03A9D /* dotien2.mp3 in Resources */,
+				E0B364B014B4A61200E03A9D /* tienkeu2.mp3 in Resources */,
+				E0B364B114B4A61200E03A9D /* tienkeu4.mp3 in Resources */,
+				E0B364B614B4B00F00E03A9D /* ResultViewController.xib in Resources */,
+				E0B364C114B4B24F00E03A9D /* LixiTableViewController.xib in Resources */,
+				E01FAC35156A49AB00630258 /* denpyo.jpg in Resources */,
+				E01FAC36156A49AB00630258 /* leji.jpg in Resources */,
+				E01FAC3C156A4C6800630258 /* glass.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +364,10 @@
 				E092E67413F43DC600406A23 /* main.m in Sources */,
 				E092E67713F43DC600406A23 /* _009030531AppDelegate.m in Sources */,
 				E092E67D13F43DC600406A23 /* RootViewController.m in Sources */,
+				E092E6E013F4408A00406A23 /* Item.m in Sources */,
+				E0463495148DCC5B00072AD3 /* DetailViewController1.m in Sources */,
+				E0B364B514B4B00F00E03A9D /* ResultViewController.m in Sources */,
+				E0B364C014B4B24F00E03A9D /* LixiTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,6 +429,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -336,6 +439,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -344,6 +448,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
@@ -351,6 +456,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 			};
 			name = Release;
@@ -363,8 +469,10 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "1009030531/1009030531-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "1009030531/1009030531-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -376,8 +484,10 @@
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "1009030531/1009030531-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "1009030531/1009030531-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -394,6 +504,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "1009030531Tests/1009030531Tests-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "1009030531Tests/1009030531Tests-Info.plist";
 				OTHER_LDFLAGS = (
 					"-framework",
@@ -416,6 +527,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "1009030531Tests/1009030531Tests-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "1009030531Tests/1009030531Tests-Info.plist";
 				OTHER_LDFLAGS = (
 					"-framework",
@@ -446,6 +558,7 @@
 				E092E69B13F43DC600406A23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E092E69C13F43DC600406A23 /* Build configuration list for PBXNativeTarget "1009030531Tests" */ = {
 			isa = XCConfigurationList;
@@ -454,6 +567,7 @@
 				E092E69E13F43DC600406A23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

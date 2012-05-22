@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>sub1</key>
+		<string>10ngandon</string>
+		<key>sub2</key>
+		<string>10,000 đồng</string>
+		<key>sub3</key>
+		<string>ic10ngan</string>
+	</dict>
+	<dict>
+		<key>sub1</key>
+		<string>20ngandon</string>
+		<key>sub2</key>
+		<string>20,000 đồng</string>
+		<key>sub3</key>
+		<string>ic20ngan</string>
+	</dict>
+	<dict>
+		<key>sub1</key>
+		<string>50ngandon</string>
+		<key>sub2</key>
+		<string>50,000 đồng</string>
+		<key>sub3</key>
+		<string>ic50ngan</string>
+	</dict>
+	<dict>
+		<key>sub1</key>
+		<string>1tramngandon</string>
+		<key>sub2</key>
+		<string>100,000 đồng</string>
+		<key>sub3</key>
+		<string>ic_1tram</string>
+	</dict>
+	<dict>
+		<key>sub1</key>
+		<string>2tramngan</string>
+		<key>sub2</key>
+		<string>200,000 đồng</string>
+		<key>sub3</key>
+		<string>ic2tram</string>
+	</dict>
+	<dict>
+		<key>sub1</key>
+		<string>5tramdon</string>
+		<key>sub2</key>
+		<string>500,000 đồng</string>
+		<key>sub3</key>
+		<string>ic5tram</string>
+	</dict>
+	<dict>
+		<key>sub1</key>
+		<string>1trieu</string>
+		<key>sub2</key>
+		<string>1,000,000 đồng</string>
+		<key>sub3</key>
+		<string>ic1trieu</string>
+	</dict>
+</array>
+</plist>
