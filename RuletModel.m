@@ -84,14 +84,10 @@ int limit;
 -(void)createDummyPerson:(int)num
 {
     // create num person and insert people.
+    NSLog(@"called num is %i",num);
+    
     for (int i = 0 ;i < num ; i++){
         NSMutableDictionary *person = [NSMutableDictionary dictionary];
-        [person setObject:@"taro" forKey:@"name"];
-        if (i < 5){
-            [person setObject:@"man" forKey:@"sex"];
-        }else{
-            [person setObject:@"women" forKey:@"sex"];
-        }
         [self.people addObject:person];
     }
 }

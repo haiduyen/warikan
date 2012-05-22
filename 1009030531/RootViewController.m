@@ -17,6 +17,9 @@
 @implementation RootViewController
 @synthesize  rm = _rm;
 
+int tmpNum;
+int tmpPrice;
+
 
 
 -(RuletModel *) rm
@@ -54,11 +57,6 @@
 //        
 //    }
 
-   // fff
-
-
-    
-
     
     
     
@@ -71,20 +69,25 @@
 
 - (IBAction)didFinishedEditingField:(id)sender {
     int num = [peopleNumberField.text intValue];
+    int tp  = [payment.text intValue];
+    
     NSLog(@"num is %i",num);
     NSLog(@"%@",self.rm);
 
     [self.rm createDummyPerson:num];
-    
-    NSLog(@"people number is %@",[self.rm people]);
+    [self.rm createDummyPrice:tp];
+ //   NSMutableDictionary *lastPerson = [[self.rm people]
 
-    
-    
+    NSLog(@"people number is %i",[[self.rm people] count]);
+
+//    NSLog(@"people  is %@",[self.rm people]);
+
     
 }
+ 
 
 - (IBAction)Pay:(id)sender{
-    NSLog(@"you typed, %@", [peopleNumberField text]);
+    
 	ResultViewController *abc = [[ResultViewController alloc] initWithNibName:@"ResultViewController" 
                                                  bundle:nil];
 	[self.navigationController pushViewController:abc animated:YES];
