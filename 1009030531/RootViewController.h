@@ -10,7 +10,7 @@
 
 @interface RootViewController : UIViewController {
 
-    IBOutlet UITextField *people;
+    IBOutlet UITextField *peopleNumberField;
     IBOutlet UITextField *payment;
 }
 -(IBAction)Pay :(id)sender;

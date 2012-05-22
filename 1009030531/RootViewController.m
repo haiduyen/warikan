@@ -70,8 +70,8 @@
 
 - (void)viewDidUnload
 {
-    [people release];
-    people = nil;
+    [peopleNumberField release];
+    peopleNumberField = nil;
     [payment release];
     payment = nil;
     [super viewDidUnload];
@@ -81,7 +81,7 @@
 
 - (void)dealloc
 {
-    [people release];
+    [peopleNumberField release];
     [payment release];
     [super dealloc];
 }
